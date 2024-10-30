@@ -1,0 +1,16 @@
+{
+	"name": "soup-bowl/wpupdatediscordbot",
+	"description": "Posts updates to the site content to a Discord webhook.",
+    "autoload": {
+        "classmap": [
+			"class-discord.php",
+			"class-settings.php",
+			"class-metabox.php"
+		]
+    },
+	"require-dev": {
+		"phpunit/phpunit": "8",
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+		"wp-coding-standards/wpcs": "*"
+	}
+}
